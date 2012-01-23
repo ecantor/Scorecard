@@ -1,0 +1,29 @@
+<h1>Listing Scorecards</h1>
+
+<h2>note: if you dont' see your scorecard here, do 10 hail maries and call your orthodontist</h2>
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Summary</th>
+    <th>Comment</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cards.each do |card| %>
+  <tr>
+    <td><%= card.date %></td>
+    <td><%= card.summary %></td>
+    <td><%= card.comment %></td>
+    <td><%= link_to 'Show', card %></td>
+    <td><%= link_to 'Edit', edit_card_path(card) %></td>
+    <td><%= link_to 'Destroy', card, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Card', new_card_path %>
