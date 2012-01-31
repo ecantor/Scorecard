@@ -11,17 +11,182 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :date %><br />
-    <%= f.date_select :date %>
+    <%= f.datetime_select :date %>
+  </div>
+
+ <table>
+<tr>
+<td> <div class="field">
+    <%= f.label :SAT_overallQoL %><br />
+    <%= f.number_field :SAT_overallQoL %>
+  </div></td>
+  <td>
+ <div class="field">
+    <%= f.label :SAT_overallQoL_C %><br />
+    <%= f.text_field :SAT_overallQoL_C %>
+  </div>
+ </td>
+  </tr>
+  <tr>
+<td>
+   
+   <div class="field">
+    <%= f.label :SAT_prospects %><br />
+    <%= f.number_field :SAT_prospects %>
+  </div>
+  <td>
+    <div class="field">
+    <%= f.label :SAT_prospects_C %><br />
+    <%= f.text_field :SAT_prospects_C %>
+  </div>
+  </td>
+  </tr> 
+
+<tr>
+<td>
+
+  <div class="field">
+    <%= f.label :PROF_principalActivity %><br />
+    <%= f.number_field :PROF_principalActivity %>
+  </div>
+  
+  <td><div class="field">
+    <%= f.label :PROF_principalActivity_C %><br />
+    <%= f.text_field :PROF_principalActivity_C %>
+  </div></td>
+  </tr>
+  <div class="field">
+    <%= f.label :PROF_sideProjects %><br />
+    <%= f.number_field :PROF_sideProjects %>
+  </div>
+  <td>
+    <div class="field">
+    <%= f.label :PROF_sideProjects_C %><br />
+    <%= f.text_field :PROF_sideProjects_C %>
+  </div>
+   </td>
+  </tr>  
+   </table>
+   <div class="field">
+    <%= f.label :PROF_futurePlans %><br />
+    <%= f.number_field :PROF_futurePlans %>
+  </div>
+
+  
+<tr>
+<td><div class="field">
+    <%= f.label :SOC_friends %><br />
+    <%= f.number_field :SOC_friends %>
+  </div>
+  <td>
+  <div class="field">
+    <%= f.label :SOC_friends_C %><br />
+    <%= f.text_field :SOC_friends_C %>
+  </div>
+   </td>
+  </tr>
+  <div class="field">
+    <%= f.label :SOC_family %><br />
+    <%= f.number_field :SOC_family %>
+  </div> <div class="field">
+    <%= f.label :SOC_romantic %><br />
+    <%= f.number_field :SOC_romantic %>
   </div>
   <div class="field">
-    <%= f.label :summary %><br />
-    <%= f.text_field :summary %>
+    <%= f.label :PHYS_medical %><br />
+    <%= f.number_field :PHYS_medical %>
   </div>
   <div class="field">
-    <%= f.label :comment %><br />
-    <%= f.text_field :comment %>
+    <%= f.label :PHYS_fitness %><br />
+    <%= f.number_field :PHYS_fitness %>
+  </div>
+  <div class="field">
+    <%= f.label :PHYS_appearance %><br />
+    <%= f.number_field :PHYS_appearance %>
+  </div>
+  <div class="field">
+    <%= f.label :FIN_overallHealth %><br />
+    <%= f.number_field :FIN_overallHealth %>
+  </div>
+  <div class="field">
+    <%= f.label :FIN_managementOrganization %><br />
+    <%= f.number_field :FIN_managementOrganization %>
+  </div>
+  <div class="field">
+    <%= f.label :FIN_futureOutlook %><br />
+    <%= f.number_field :FIN_futureOutlook %>
+  </div>
+ 
+
+  
+
+  <div class="field">
+    <%= f.label :PROF_futurePlans_C %><br />
+    <%= f.text_field :PROF_futurePlans_C %>
+  </div>
+ 
+  <div class="field">
+    <%= f.label :SOC_family_C %><br />
+    <%= f.text_field :SOC_family_C %>
+  </div>
+  <div class="field">
+    <%= f.label :SOC_romantic_C %><br />
+    <%= f.text_field :SOC_romantic_C %>
+  </div>
+  <div class="field">
+    <%= f.label :PHYS_medical_C %><br />
+    <%= f.text_field :PHYS_medical_C %>
+  </div>
+  <div class="field">
+    <%= f.label :PHYS_fitness_C %><br />
+    <%= f.text_field :PHYS_fitness_C %>
+  </div>
+  <div class="field">
+    <%= f.label :PHYS_appearance_C %><br />
+    <%= f.text_field :PHYS_appearance_C %>
+  </div>
+  <div class="field">
+    <%= f.label :FIN_overallHealth_C %><br />
+    <%= f.text_field :FIN_overallHealth_C %>
+  </div>
+  <div class="field">
+    <%= f.label :FIN_managementOrganization_C %><br />
+    <%= f.text_field :FIN_managementOrganization_C %>
+  </div>
+  <div class="field">
+    <%= f.label :FIN_futureOutlook_C %><br />
+    <%= f.text_field :FIN_futureOutlook_C %>
+  </div>
+  <div class="field">
+    <%= f.label :goalsLastQuarter %><br />
+    <%= f.text_area :goalsLastQuarter %>
+  </div>
+  <div class="field">
+    <%= f.label :resultsLastQuarter %><br />
+    <%= f.text_area :resultsLastQuarter %>
+  </div>
+  <div class="field">
+    <%= f.label :goalsNextQuarter %><br />
+    <%= f.text_area :goalsNextQuarter %>
+  </div>
+  <div class="field">
+    <%= f.label :metricsNextQuarter %><br />
+    <%= f.text_area :metricsNextQuarter %>
+  </div>
+  <div class="field">
+    <%= f.label :potentialFutureGoals %><br />
+    <%= f.text_area :potentialFutureGoals %>
+  </div>
+  <div class="field">
+    <%= f.label :potentialFutureGoalIdeas %><br />
+    <%= f.text_area :potentialFutureGoalIdeas %>
+  </div>
+  <div class="field">
+    <%= f.label :keyLearnings %><br />
+    <%= f.text_area :keyLearnings %>
   </div>
   <div class="actions">
     <%= f.submit %>

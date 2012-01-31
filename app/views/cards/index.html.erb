@@ -1,12 +1,43 @@
-<h1>Listing Scorecards</h1>
-
-<h2>note: if you dont' see your scorecard here, do 10 hail maries and call your orthodontist</h2>
+<h1>Listing cards</h1>
 
 <table>
   <tr>
     <th>Date</th>
-    <th>Summary</th>
-    <th>Comment</th>
+    <th>Sat overallqol</th>
+    <th>Sat prospects</th>
+    <th>Prof principalactivity</th>
+    <th>Prof sideprojects</th>
+    <th>Prof futureplans</th>
+    <th>Soc friends</th>
+    <th>Soc family</th>
+    <th>Soc romantic</th>
+    <th>Phys medical</th>
+    <th>Phys fitness</th>
+    <th>Phys appearance</th>
+    <th>Fin overallhealth</th>
+    <th>Fin managementorganization</th>
+    <th>Fin futureoutlook</th>
+    <th>Sat overallqol c</th>
+    <th>Sat prospects c</th>
+    <th>Prof principalactivity c</th>
+    <th>Prof sideprojects c</th>
+    <th>Prof futureplans c</th>
+    <th>Soc friends c</th>
+    <th>Soc family c</th>
+    <th>Soc romantic c</th>
+    <th>Phys medical c</th>
+    <th>Phys fitness c</th>
+    <th>Phys appearance c</th>
+    <th>Fin overallhealth c</th>
+    <th>Fin managementorganization c</th>
+    <th>Fin futureoutlook c</th>
+    <th>Goalslastquarter</th>
+    <th>Resultslastquarter</th>
+    <th>Goalsnextquarter</th>
+    <th>Metricsnextquarter</th>
+    <th>Potentialfuturegoals</th>
+    <th>Potentialfuturegoalideas</th>
+    <th>Keylearnings</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,8 +46,41 @@
 <% @cards.each do |card| %>
   <tr>
     <td><%= card.date %></td>
-    <td><%= card.summary %></td>
-    <td><%= card.comment %></td>
+    <td><%= card.SAT_overallQoL %></td>
+    <td><%= card.SAT_prospects %></td>
+    <td><%= card.PROF_principalActivity %></td>
+    <td><%= card.PROF_sideProjects %></td>
+    <td><%= card.PROF_futurePlans %></td>
+    <td><%= card.SOC_friends %></td>
+    <td><%= card.SOC_family %></td>
+    <td><%= card.SOC_romantic %></td>
+    <td><%= card.PHYS_medical %></td>
+    <td><%= card.PHYS_fitness %></td>
+    <td><%= card.PHYS_appearance %></td>
+    <td><%= card.FIN_overallHealth %></td>
+    <td><%= card.FIN_managementOrganization %></td>
+    <td><%= card.FIN_futureOutlook %></td>
+    <td><%= card.SAT_overallQoL_C %></td>
+    <td><%= card.SAT_prospects_C %></td>
+    <td><%= card.PROF_principalActivity_C %></td>
+    <td><%= card.PROF_sideProjects_C %></td>
+    <td><%= card.PROF_futurePlans_C %></td>
+    <td><%= card.SOC_friends_C %></td>
+    <td><%= card.SOC_family_C %></td>
+    <td><%= card.SOC_romantic_C %></td>
+    <td><%= card.PHYS_medical_C %></td>
+    <td><%= card.PHYS_fitness_C %></td>
+    <td><%= card.PHYS_appearance_C %></td>
+    <td><%= card.FIN_overallHealth_C %></td>
+    <td><%= card.FIN_managementOrganization_C %></td>
+    <td><%= card.FIN_futureOutlook_C %></td>
+    <td><%= card.goalsLastQuarter %></td>
+    <td><%= card.resultsLastQuarter %></td>
+    <td><%= card.goalsNextQuarter %></td>
+    <td><%= card.metricsNextQuarter %></td>
+    <td><%= card.potentialFutureGoals %></td>
+    <td><%= card.potentialFutureGoalIdeas %></td>
+    <td><%= card.keyLearnings %></td>
     <td><%= link_to 'Show', card %></td>
     <td><%= link_to 'Edit', edit_card_path(card) %></td>
     <td><%= link_to 'Destroy', card, confirm: 'Are you sure?', method: :delete %></td>
