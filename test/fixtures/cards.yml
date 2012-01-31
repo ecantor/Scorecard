@@ -1,11 +1,77 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  date: 2012-01-13
-  summary: MyString
-  comment: MyString
+  date: 2012-01-29 14:33:31
+  SAT_overallQoL: 1
+  SAT_prospects: 1
+  PROF_principalActivity: 1
+  PROF_sideProjects: 1
+  PROF_futurePlans: 1
+  SOC_friends: 1
+  SOC_family: 1
+  SOC_romantic: 1
+  PHYS_medical: 1
+  PHYS_fitness: 1
+  PHYS_appearance: 1
+  FIN_overallHealth: 1
+  FIN_managementOrganization: 1
+  FIN_futureOutlook: 1
+  SAT_overallQoL_C: MyString
+  SAT_prospects_C: MyString
+  PROF_principalActivity_C: MyString
+  PROF_sideProjects_C: MyString
+  PROF_futurePlans_C: MyString
+  SOC_friends_C: MyString
+  SOC_family_C: MyString
+  SOC_romantic_C: MyString
+  PHYS_medical_C: MyString
+  PHYS_fitness_C: MyString
+  PHYS_appearance_C: MyString
+  FIN_overallHealth_C: MyString
+  FIN_managementOrganization_C: MyString
+  FIN_futureOutlook_C: MyString
+  goalsLastQuarter: MyText
+  resultsLastQuarter: MyText
+  goalsNextQuarter: MyText
+  metricsNextQuarter: MyText
+  potentialFutureGoals: MyText
+  potentialFutureGoalIdeas: MyText
+  keyLearnings: MyText
 
 two:
-  date: 2012-01-13
-  summary: MyString
-  comment: MyString
+  date: 2012-01-29 14:33:31
+  SAT_overallQoL: 1
+  SAT_prospects: 1
+  PROF_principalActivity: 1
+  PROF_sideProjects: 1
+  PROF_futurePlans: 1
+  SOC_friends: 1
+  SOC_family: 1
+  SOC_romantic: 1
+  PHYS_medical: 1
+  PHYS_fitness: 1
+  PHYS_appearance: 1
+  FIN_overallHealth: 1
+  FIN_managementOrganization: 1
+  FIN_futureOutlook: 1
+  SAT_overallQoL_C: MyString
+  SAT_prospects_C: MyString
+  PROF_principalActivity_C: MyString
+  PROF_sideProjects_C: MyString
+  PROF_futurePlans_C: MyString
+  SOC_friends_C: MyString
+  SOC_family_C: MyString
+  SOC_romantic_C: MyString
+  PHYS_medical_C: MyString
+  PHYS_fitness_C: MyString
+  PHYS_appearance_C: MyString
+  FIN_overallHealth_C: MyString
+  FIN_managementOrganization_C: MyString
+  FIN_futureOutlook_C: MyString
+  goalsLastQuarter: MyText
+  resultsLastQuarter: MyText
+  goalsNextQuarter: MyText
+  metricsNextQuarter: MyText
+  potentialFutureGoals: MyText
+  potentialFutureGoalIdeas: MyText
+  keyLearnings: MyText
