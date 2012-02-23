@@ -1,0 +1,3 @@
+fix _form.erb file formatting to use table
+validate entry of ratings 1-5, comment lengths
+

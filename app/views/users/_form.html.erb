@@ -10,7 +10,6 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
@@ -35,7 +34,11 @@
     <%= f.label :country %><br />
     <%= f.text_field :country %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+  <%= f.fields_for :cards do |builder| %>
+  <%= render '_step_fields.html.erb' %>
+<% end %>
+
+<div class="actions">
+  <%= f.submit %>
   </div>
 <% end %>
